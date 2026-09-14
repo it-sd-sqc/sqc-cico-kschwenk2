@@ -69,4 +69,12 @@ Use `./build.sh` to build CiCo and `./run.sh` to run it if using the command lin
 
 ## Expected results
 * The message should clearly indicate whether the user has checked in or checked out.
+# Ticket 301: Show whether user is checked in or out.
 
+## Test steps
+1. Build and run CiCo.
+2. Enter 00000000 into the field and click Update.
+3. Observe the status message.
+
+## Expected results
+* The status message should clearly indicate whether the user is Checked IN or Checked OUT.
